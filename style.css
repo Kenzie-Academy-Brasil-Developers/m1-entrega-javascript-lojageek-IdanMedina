@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.body {
+  background-color: #ffffff;
+  max-width: auto;
+  margin: 0 auto;
+}
+.menu {
+  width: 100%;
+  height: 85px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  max-width: auto;
+  height: 85px;
+  border-bottom: 2px;
+  border-color: #868383;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+}
+.logo-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 224px;
+  height: 100%;
+  left: 30px;
+  top: 16px;
+  margin: 16px 0px 0px 30px;
+}
+.menu-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#buttonPr {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 150px;
+  height: 40px;
+  top: 22px;
+  margin: 22px 12px;
+  background: #0a99fe;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  border-color: transparent;
+}
+#buttonCt {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 150px;
+  height: 40px;
+  margin: 22px 28px 22px 12px;
+  top: 22px;
+  background: rgba(10, 153, 254, 0.1);
+  border-radius: 8px;
+  color: #0a99fe;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  border-color: transparent;
+}
+.main {
+  background-color: #ffffff;
+  max-width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.container-list {
+    max-width: auto;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #1b1b1b;
+  font-weight: normal;
+  margin: 49px 0px 39px 25px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: flex-start;
+  overflow-x: horizontal;
+  margin-left: 25px;
+}
+.card {
+  width: 207px;
+  height: 275px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px
+}
+.image {
+  width: 207px;
+  height: 141px;
+  object-fit: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+.item-name {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  color: #1b1b1b;
+  margin: 27px 36px;
+}
+.item-value {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #868383;
+  margin-bottom: 37px;
+}
